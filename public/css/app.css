@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);body .user-form {
+  width: 500px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+body .user-form .title,
+body .user-form .sub-title {
+  color: #505050;
+}
+
+body .user-form .title {
+  font-weight: bolder;
+  font-size: 24px;
+  margin: 0 10px 20px 0;
+}
+
+body .user-form .sub-title {
+  font-size: 18px;
+  margin: 0 10px 40px 0;
+}
+
+body .user-form .form-input {
+  display: block;
+  border-radius: 20px;
+  border: 1px solid #b89b5e;
+  margin: 20px 0;
+  padding: 15px;
+}
+
+body .user-form .is-invalid {
+  border: 1px solid #f33207;
+}
+
+body .user-form form .form-input input {
+  font-size: 18px;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+}
+
+body .user-form .form-btn {
+  display: block;
+  border-radius: 25px;
+  border: 1px solid #b89b5e;
+  margin: 20px 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #fff;
+}
+
+body .user-form .form-btn:hover {
+  color: #f2f2f2;
+  background: #b89b5e;
+}
+
+body .user-form .form-massage {
+  display: block;
+  text-align: center;
+}
+
+body .vertical-center-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body .section {
+  display: block;
+  margin: 30px 0;
+  padding: 10px 0;
+  contain: content;
+}
+
+body p {
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+body p.title {
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-family: "Vollkorn", serif;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+body dt.content {
+  margin: 15px 0;
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+body dd.content {
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
