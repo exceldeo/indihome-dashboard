@@ -82,7 +82,7 @@ Data Pelanggan
                                                 <div class="controls">
                                                     <label>Alamat Pemasangan</label>
                                                     <fieldset class="form-group">
-                                                        <textarea disabled class="form-control" id="basicTextarea" rows="3" value="{{$pelanggan->alamat}}" placeholder="Masukan Alamat pemasangan"></textarea>
+                                                        <textarea disabled class="form-control" id="basicTextarea" rows="3"  placeholder="Masukan Alamat pemasangan">{{$pelanggan->alamat}}</textarea>
                                                     </fieldset>
                                                 </div>
                                             </div>
