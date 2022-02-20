@@ -87,9 +87,15 @@ active
                                                     <td>{{$pelanggan->kodeSales}}</td>
                                                     <td>
                                                         @if($pelanggan->statusPemasangan == 0)
-                                                            <span class="badge badge-light-danger">Belum Dipasang</span>
+                                                            <span class="badge badge-light-warning">SEDANG BERJALAN (SCBE)</span>
                                                         @elseif($pelanggan->statusPemasangan == 1)
-                                                            <span class="badge badge-light-success">Berhasil Dipasang</span>
+                                                            <span class="badge badge-light-success">SUBMIT SCBE (TERPASANG)</span>
+                                                        @elseif($pelanggan->statusPemasangan == 2)
+                                                            <span class="badge badge-light-danger">KENDALA JALUR/JARINGAN PT1</span>
+                                                        @elseif($pelanggan->statusPemasangan == 3)
+                                                            <span class="badge badge-light-danger">KENDALA JALUR/JARINGAN PT2</span>
+                                                        @elseif($pelanggan->statusPemasangan == 4)
+                                                            <span class="badge badge-light-danger">KENDALA JALUR/JARINGAN PT3</span>
                                                         @endif
                                                     </td>
                                                     <td><a href="{{route('admin.pelanggan.edit', $pelanggan->id)}}"><i class="bx bxs-detail"></i></a></td>

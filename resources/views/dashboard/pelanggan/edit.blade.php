@@ -102,12 +102,27 @@ Data Pelanggan
                                                         <option value="0" 
                                                         @if($pelanggan->statusPemasangan == "0") 
                                                             selected 
-                                                        @endif >Belum Dipasang</option>
+                                                        @endif >SEDANG BERJALAN (SCBE)</option>
 
                                                         <option value="1"
                                                         @if($pelanggan->statusPemasangan == "1") 
                                                             selected
-                                                        @endif >Berhasil Dipasang</option>
+                                                        @endif >SUBMIT SCBE (TERPASANG)</option>
+
+                                                        <option value="2"
+                                                        @if($pelanggan->statusPemasangan == "2") 
+                                                            selected
+                                                        @endif >KENDALA JALUR/JARINGAN PT1</option>
+
+                                                        <option value="3"
+                                                        @if($pelanggan->statusPemasangan == "3") 
+                                                            selected
+                                                        @endif >KENDALA JALUR/JARINGAN PT2</option>
+
+                                                        <option value="4"
+                                                        @if($pelanggan->statusPemasangan == "4") 
+                                                            selected
+                                                        @endif >KENDALA JALUR/JARINGAN PT3</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -120,15 +135,30 @@ Data Pelanggan
                                                 <div class="form-group">
                                                     <label>Status</label>
                                                     <select class="form-control" name="statusPemasangan" disabled >
-                                                        <option value="0" 
-                                                        @if($pelanggan->statusPemasangan == 0) 
-                                                            selected
-                                                        @endif >Belum Dipasang</option>
+                                                    <option value="0" 
+                                                        @if($pelanggan->statusPemasangan == "0") 
+                                                            selected 
+                                                        @endif >SEDANG BERJALAN (SCBE)</option>
 
                                                         <option value="1"
-                                                        @if($pelanggan->statusPemasangan == 1) 
+                                                        @if($pelanggan->statusPemasangan == "1") 
                                                             selected
-                                                        @endif >Berhasil Dipasang</option>
+                                                        @endif >SUBMIT SCBE (TERPASANG)</option>
+
+                                                        <option value="2"
+                                                        @if($pelanggan->statusPemasangan == "2") 
+                                                            selected
+                                                        @endif >KENDALA JALUR/JARINGAN PT1</option>
+
+                                                        <option value="3"
+                                                        @if($pelanggan->statusPemasangan == "3") 
+                                                            selected
+                                                        @endif >KENDALA JALUR/JARINGAN PT2</option>
+
+                                                        <option value="4"
+                                                        @if($pelanggan->statusPemasangan == "4") 
+                                                            selected
+                                                        @endif >KENDALA JALUR/JARINGAN PT3</option>
                                                     </select>
                                                 </div>
                                             </div>
